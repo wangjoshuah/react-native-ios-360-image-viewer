@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/wangjoshuah/react-native-ios-360-image-viewer"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "wangjoshuah" => "wangjoshuah@gmail.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/wangjoshuah/react-native-ios-360-image-viewer.git", :tag => "master" }
@@ -17,6 +16,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
+  s.dependency "CTPanoramaViewer", "1.1"
 
 end
 
