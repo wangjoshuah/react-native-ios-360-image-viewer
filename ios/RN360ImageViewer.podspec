@@ -11,7 +11,7 @@ s.license      = { :type => "MIT", :file => "../LICENSE"}
   s.author             = { "wangjoshuah" => "wangjoshuah@gmail.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/wangjoshuah/react-native-ios-360-image-viewer.git", :tag => "master" }
-  s.source_files  = "RN360ImageViewer/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
 
