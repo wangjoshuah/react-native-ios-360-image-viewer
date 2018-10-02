@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11503AC52163F9F900972848 /* RN360ImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11503AC42163F9F900972848 /* RN360ImageViewManager.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RN360ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RN360ImageViewer.m */; };
 		C9F2103B79732E33EE5AE9D6 /* Pods_RN360ImageViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3D440F1E2F68DFC7550CD /* Pods_RN360ImageViewer.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11503AC32163F9F900972848 /* RN360ImageViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RN360ImageViewManager.h; sourceTree = "<group>"; };
+		11503AC42163F9F900972848 /* RN360ImageViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RN360ImageViewManager.m; sourceTree = "<group>"; };
+		11503AC62163FAD700972848 /* RN360ImageViewer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RN360ImageViewer.podspec; sourceTree = "<group>"; };
+		11503AC72163FAD700972848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRN360ImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRN360ImageViewer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DD74C4A8F1C9C23D29E8E9 /* Pods-RN360ImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN360ImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.release.xcconfig"; sourceTree = "<group>"; };
 		9BFC7511938C6CAC104AAFF1 /* Pods-RN360ImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN360ImageViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RN360ImageViewer.h */,
+				11503AC32163F9F900972848 /* RN360ImageViewManager.h */,
+				11503AC42163F9F900972848 /* RN360ImageViewManager.m */,
 				B3E7B5891CC2AC0600A0062D /* RN360ImageViewer.m */,
+				11503AC72163FAD700972848 /* Podfile */,
+				11503AC62163FAD700972848 /* RN360ImageViewer.podspec */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				D82ABD51A8371C42F0701D18 /* Pods */,
 				B58C929214D9F4433D094DBC /* Frameworks */,
@@ -158,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11503AC52163F9F900972848 /* RN360ImageViewManager.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RN360ImageViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
