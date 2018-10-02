@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RN360ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RN360ImageViewer.m */; };
+		C9F2103B79732E33EE5AE9D6 /* Pods_RN360ImageViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA3D440F1E2F68DFC7550CD /* Pods_RN360ImageViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRN360ImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRN360ImageViewer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DD74C4A8F1C9C23D29E8E9 /* Pods-RN360ImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN360ImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		9BFC7511938C6CAC104AAFF1 /* Pods-RN360ImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN360ImageViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RN360ImageViewer/Pods-RN360ImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA3D440F1E2F68DFC7550CD /* Pods_RN360ImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RN360ImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RN360ImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RN360ImageViewer.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RN360ImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RN360ImageViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F2103B79732E33EE5AE9D6 /* Pods_RN360ImageViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +58,26 @@
 				B3E7B5881CC2AC0600A0062D /* RN360ImageViewer.h */,
 				B3E7B5891CC2AC0600A0062D /* RN360ImageViewer.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				D82ABD51A8371C42F0701D18 /* Pods */,
+				B58C929214D9F4433D094DBC /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		B58C929214D9F4433D094DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA3D440F1E2F68DFC7550CD /* Pods_RN360ImageViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D82ABD51A8371C42F0701D18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC7511938C6CAC104AAFF1 /* Pods-RN360ImageViewer.debug.xcconfig */,
+				87DD74C4A8F1C9C23D29E8E9 /* Pods-RN360ImageViewer.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +87,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RN360ImageViewer" */;
 			buildPhases = (
+				50EF60A9E4C7AC14A8C670C8 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -106,6 +131,27 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50EF60A9E4C7AC14A8C670C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RN360ImageViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -202,9 +248,10 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFC7511938C6CAC104AAFF1 /* Pods-RN360ImageViewer.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
@@ -218,6 +265,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DD74C4A8F1C9C23D29E8E9 /* Pods-RN360ImageViewer.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

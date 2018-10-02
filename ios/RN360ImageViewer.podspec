@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.1.0"
   s.summary      = "React Native 360 Image Viewer"
   s.description  = <<-DESC
-                  React Native 360 Image Viewer based on CTPanoramaViewer
+                  React Native 360 Image Viewer based on CTPanoramaView
                    DESC
   s.homepage     = "https://github.com/wangjoshuah/react-native-ios-360-image-viewer"
   s.license      = "MIT"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
-  s.dependency "CTPanoramaViewer", "1.1"
+  s.dependency "CTPanoramaView", "1.1"
 
 end
 
