@@ -6,7 +6,6 @@ target 'RN360ImageViewer' do
   use_frameworks!
 
   # Pods for RN360ImageViewer
-  pod "React"
   pod "CTPanoramaView", "1.1"
 
 end
