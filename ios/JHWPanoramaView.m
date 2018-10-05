@@ -10,32 +10,32 @@
 
 @implementation JHWPanoramaView
 {
-  // Weak reference back to the bridge, for image loading
-  __weak RCTBridge *_bridge;
+    // Weak reference back to the bridge, for image loading
+    __weak RCTBridge *_bridge;
 }
 
 RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
-  self = [super initWithFrame:frame];
-  return self;
+    self = [super initWithFrame:frame];
+    return self;
 }
 
 - (instancetype)initWithBridge:(RCTBridge *)bridge
 {
-  _bridge = bridge;
-  self = [super init];
-  return self;
+    _bridge = bridge;
+    self = [super init];
+    return self;
 }
 
 - (void)layoutSubviews {
-  NSLog(@"[JHW][PanoramaView] layoutSubviews");
-  CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
-                                  initWithFrame:self.bounds
-                                  image:[UIImage imageNamed:@"R0010020"]];
-  panoramaView.controlMethod = CTPanoramaControlMethodMotion;
-  [self addSubview:panoramaView];
+    NSLog(@"[JHW][PanoramaView] layoutSubviews");
+    CTPanoramaView *panoramaView = [[CTPanoramaView alloc]
+                                    initWithFrame:self.bounds
+                                    image:[UIImage imageNamed:@"R0010020"]];
+    panoramaView.controlMethod = CTPanoramaControlMethodMotion;
+    [self addSubview:panoramaView];
 }
 
 RCT_NOT_IMPLEMENTED(- (instancetype)init)
