@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                   React Native 360 Image Viewer based on CTPanoramaView
                    DESC
   s.homepage     = "https://github.com/wangjoshuah/react-native-ios-360-image-viewer"
-s.license      = { :type => "MIT", :file => "LICENSE"}
+  s.license      = { :type => "MIT", :file => "LICENSE"}
   s.author             = { "wangjoshuah" => "wangjoshuah@gmail.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/wangjoshuah/react-native-ios-360-image-viewer.git", :tag => "master" }
@@ -15,6 +15,7 @@ s.license      = { :type => "MIT", :file => "LICENSE"}
   s.requires_arc = true
 
   s.dependency "CTPanoramaView", "1.1"
+  s.dependency "React"
 
 end
 
