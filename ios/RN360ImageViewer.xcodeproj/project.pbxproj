@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		11503AC62163FAD700972848 /* RN360ImageViewer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RN360ImageViewer.podspec; sourceTree = "<group>"; };
+		11503AC62163FAD700972848 /* RN360ImageViewer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RN360ImageViewer.podspec; path = ../RN360ImageViewer.podspec; sourceTree = "<group>"; };
 		11503AC72163FAD700972848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		11CC01252167DB290099ED25 /* JHWPanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWPanoramaView.m; sourceTree = "<group>"; };
 		11CC01262167DB290099ED25 /* JHWPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWPanoramaView.h; sourceTree = "<group>"; };
