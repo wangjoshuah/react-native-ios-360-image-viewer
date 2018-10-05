@@ -10,4 +10,4 @@ matrix:
       cache:
         - bundler
         - yarn
-      script: cd ios && pod spec lint
+      script: test.sh
